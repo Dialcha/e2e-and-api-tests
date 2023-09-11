@@ -1,0 +1,4 @@
+Conclusiones
+
+Para este caso práctico se usó la Api de DemoBlazer para el login y sign up, al hacer interacciones con la misma se evidencia que los mensajes de respuesta no son muy expresivos (como en el caso del login)
+sin embargo se automatiza con lo que se obtiene como status y el pequeño mensaje que devuelve, sea token o mensaje de error

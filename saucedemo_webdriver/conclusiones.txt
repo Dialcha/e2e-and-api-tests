@@ -1,0 +1,25 @@
+**************** ESPAÑOL **********************
+Conclusiones:
+
+Este caso practico es muy completo, ya que abarca desde el login en la aplicación, y el flujo completo hasta que se ejecuta la orden de compra.
+Al ser un flujo en el que se navega por varias vistas, se encuentra muy adecuado el uso del patrón Page Object Model para representar las vistas y elementos de la aplicación, así como para
+interactuar con estos elementos.
+También permite tener un código mas limpio y que la prueba sea mas legible.
+Hubo 3 subclases donde fué oportuno el uso de la herencia, para reusar código.
+Se centraliza la data de la prueba en una clase llamada TestData, esto permite que en un futuro si cambia el nombre de un producto, no tenga que reemplazarlo 3 o 4 veces, si no buscarlo solo una vez y reemplazarlo.
+Al contar con un flujo automatizado como el que se hizo en esta prueba, se pueden hacer cambios en la aplicación con mayor tranquilidad, ya que se cubre cada una de las etapas del flujo, y se hacen muchas aserciones del flujo lógico.
+
+
+**************** ENGLISH **********************
+Conclusions:
+This practical case is very comprehensive, as it covers everything from logging into the application to completing the entire order process.
+
+Given that the flow involves navigating through multiple views, the use of the Page Object Model pattern to represent the views and elements of the application, as well as to interact with these elements, is highly suitable.
+
+It also enables cleaner code and makes the test more readable.
+
+There were three subclasses where the use of inheritance was opportune for code reuse.
+
+Test data is centralized in a class called TestData, which allows for future changes in product names to be made in one place instead of having to replace them three or four times.
+
+Having an automated flow like the one implemented in this test provides greater confidence when making changes to the application, as each stage of the flow is covered, and numerous logical flow assertions are performed.
